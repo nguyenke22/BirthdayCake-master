@@ -15,7 +15,10 @@
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Happee Birthdae" />
+            android:background="#E8DCDB"
+            android:text="Happee Birthdae"
+            android:textColor="#F44336"
+            android:textSize="80sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -43,18 +46,14 @@
             android:layout_height="wrap_content"
             android:text="HOORAY!!" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-
-            <Switch
-                android:id="@+id/frosting"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Frosting" />
-        </LinearLayout>
+        <Switch
+            android:id="@+id/frosting"
+            android:layout_width="418dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:maxWidth="10sp"
+            android:minHeight="48dip"
+            android:text="Frosting" />
 
         <Button
             android:id="@+id/button2"
@@ -63,4 +62,5 @@
             android:text="yay..." />
 
     </LinearLayout>
+
 </LinearLayout>
